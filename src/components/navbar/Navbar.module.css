@@ -8,6 +8,7 @@
     display: flex;
     gap: 10px;
     flex: 1;
+    cursor: pointer;
 }
 .Logo{
     flex: 1;

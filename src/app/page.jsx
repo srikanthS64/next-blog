@@ -10,8 +10,10 @@ export default function Home() {
   return <div className={styles.container}>
     <Featured />
     <CategoryList />
-    <CardList />
+    <div className={styles.content}>
+      <CardList />
+      <Menu />
+    </div>
     <Pagination />
-    <Menu />
   </div>;
 }
