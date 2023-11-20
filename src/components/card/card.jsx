@@ -19,6 +19,7 @@ const card = () => {
                 <p className={style.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum vel voluptates quo qui nam doloribus quasi eum perspiciatis distinctio, eligendi tempore necessitatibus aspernatur, harum saepe? Quia voluptate commodi excepturi repellat!</p>
                 <Link href="/" className={style.link}>Read More</Link>
             </div>
+            
         </div>
     )
 }

@@ -8,10 +8,10 @@ const AuthLinks = () => {
   const [open, setOpen] = useState(false)
 
   // temporary
-  const status = "notauthentication";
+  const status = "authenticated";
   return (
     <>
-      {status === "notauthentication" ? (
+      {status === "notauthenticated" ? (
         <Link href="/login" className={style.link}>Login</Link>
       ) : (
         <>
